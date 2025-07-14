@@ -48,8 +48,6 @@ This is a bot set up to calculate food expenses and answer user questions (e.g.,
 1. Create Conda environments run ```conda create --name BOT python=3.10``` and activate ```conda activate BOT```
 2.  Install dependencies run ```pip install -r requirements.txt```
 
-## Get .env file
+## Get .env file and config file
+The .env file in Git is an environment file – it's commonly used to store environment variables, which are often sensitive and meant to be accessible only by the owner. The configuration includes a .json file named keen-truth-457904-j8-94e7a30ce2f7.json and a .env file.
 You can reach it by visiting [link](https://drive.google.com/drive/u/0/folders/1sRNPoqGzKpnr0LE-KBWFziyHQgW5aM7L)
-
-# Run bot 
-Run ```python test_bot.py```

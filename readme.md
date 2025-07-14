@@ -46,6 +46,7 @@ This is a bot set up to calculate food expenses and answer user questions (e.g.,
 
 ## Set up evirerment
 1. Create Conda environments run ```conda create --name BOT python=3.10``` and activate ```conda activate BOT```
-2.  Install dependencies run 
+2.  Install dependencies run ```pip install -r requirements.txt```
+
 ## Get .env file
 You can reach it by visiting [link](https://drive.google.com/drive/u/0/folders/1sRNPoqGzKpnr0LE-KBWFziyHQgW5aM7L)

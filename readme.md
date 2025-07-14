@@ -50,3 +50,6 @@ This is a bot set up to calculate food expenses and answer user questions (e.g.,
 
 ## Get .env file
 You can reach it by visiting [link](https://drive.google.com/drive/u/0/folders/1sRNPoqGzKpnr0LE-KBWFziyHQgW5aM7L)
+
+# Run bot 
+Run ```python test_bot.py```

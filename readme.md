@@ -50,4 +50,6 @@ This is a bot set up to calculate food expenses and answer user questions (e.g.,
 
 ## Get .env file and config file
 The .env file in Git is an environment file – it's commonly used to store environment variables, which are often sensitive and meant to be accessible only by the owner. The configuration includes a .json file named keen-truth-457904-j8-94e7a30ce2f7.json and a .env file.
-You can reach it by visiting [link](https://drive.google.com/drive/u/0/folders/1sRNPoqGzKpnr0LE-KBWFziyHQgW5aM7L)
+You can reach it by visiting [link](https://drive.google.com/drive/folders/1-Vu1S5BFv68hs0dZk2e0JhX-AK-7PXio).
+
+Note: You need permission to access the folder.

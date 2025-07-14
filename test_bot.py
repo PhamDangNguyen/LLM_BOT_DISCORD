@@ -13,6 +13,7 @@ from google import generativeai as genai
 # ==== Load .env ====
 load_dotenv()
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not DISCORD_BOT_TOKEN:
     raise ValueError("❌ Thiếu DISCORD_BOT_TOKEN trong .env")
 
@@ -29,7 +30,7 @@ client = gspread.authorize(credentials)
 sheet = client.open("Tiền cơm").sheet1
 
 # ==== Cấu hình Gemini ====
-genai.configure(api_key="AIzaSyDXtr3yOe0uX-Qpz5fj8CS_NC3M670kLNc")
+genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel(
     "gemini-2.0-flash", 
